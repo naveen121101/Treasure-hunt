@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b2e1ff+0,66b6fc+100;Blue+3D+%236 */
+background: #b2e1ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #b2e1ff 0%, #66b6fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #b2e1ff 0%,#66b6fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #b2e1ff 0%,#66b6fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.container{
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+.finish-text{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.finish-text1{
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}

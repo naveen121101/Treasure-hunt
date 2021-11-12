@@ -1,0 +1,12 @@
+body{
+  background-color: #99FEFF;
+}
+.container h1,h2,button{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.container{
+  text-align: center;
+  padding-top: 300px;
+
+}

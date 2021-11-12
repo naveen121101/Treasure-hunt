@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/file.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script type="text/javascript" >
+     function preventBack(){window.history.forward();}
+      setTimeout("preventBack()", 0);
+      window.onunload=function(){null};
+      @Override
+  public void onBackPressed() {
+     if (shouldAllowBack()) {
+         super.onBackPressed();
+     } else {
+         doSomething();
+     }
+  }
+  </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your question has been uploaded!</h1>
+      <h2>Now it's time to upload your photo!</h2>
+      <form class="question-input" action="/q12file" method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+        <input class="form-control" type="file" id="formFile" name="q12">
+      </div>
+      <button type="submit" id="q12submit" class="btn btn-primary">Submit</button>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/finish.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="node_modules/confetti-js/dist/index.min.js"></script>
+    <script type="text/javascript" >
+     function preventBack(){window.history.forward();}
+      setTimeout("preventBack()", 0);
+      window.onunload=function(){null};
+      @Override
+  public void onBackPressed() {
+     if (shouldAllowBack()) {
+         super.onBackPressed();
+     } else {
+         doSomething();
+     }
+  }
+  </script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1 class="finish-text">Congratulations</h1>
+      <h2 class="finish-text1">You have successfully completed all the clues!🎉</h2>
+      <h2 class="finish-text1">Wait for the winner announcement....</h2>
+    </div>
+
+  </body>
+</html>

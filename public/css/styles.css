@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+html{
+  font-family: 'Rubik', sans-serif;
+  background-color: #8B0000;
+  /* font-size: 1.5rem; */
+}
+.login-box{
+  color: white;
+  background-color: #8B0000;
+  padding: 10%;
+  font-family: 'Merriweather', serif;
+}
+.info{
+  text-align: center;
+}
+.top-text{
+  text-align: center;
+}
+.answer{
+  /* font-size: 1.5rem; */
+}
+.question-box{
+  font-family: 'Rubik', sans-serif;
+  background-color: #8B0000;
+  color: white;
+
+}
+.question-input{
+  font-size: 2rem;
+}
+.finish-text{
+  padding-top: 200px;
+  text-align: center;
+}
+.finish-body{
+  background-color: #000;
+}
+
+.correct{
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media all and (max-width:480px) {
+   .custom-class { width: 100%; display:block; }
+}

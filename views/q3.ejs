@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<body>
+  <div class="question-box">
+    <h1 class="top-text">Question No.3</h1>
+    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+      book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</h1>
+    <form class="question-input" action="/q3" method="post">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter your answer</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="q3answer" placeholder="Answer">
+      </div>
+      <button type="submit" id="q3submit" class="btn btn-primary" onclick="process()">Submit</button>
+    </form>
+    <div class="correct" style="display:none;">
+      <img src="/videos/checkmarksuccess.gif" alt="" height="300" width="350" >
+      <h1>Great job!</h1>
+    <a href="/q3file"><button type="button" class="btn btn-outline-success">Next-></button></a>
+    </div>
+    <div class="wrong" style="display:none;">
+      <img src="/videos/error-img.gif" alt="" height="300" width="350" >
+      <h1>Oho! Better luck next time!</h1>
+    <a href="/q3file"><button type="button" class="btn btn-outline-success">Next-></button></a>
+    </div>
+  </div>
+
+<%- include("partials/footer"); -%>
