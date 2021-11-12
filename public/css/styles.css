@@ -40,7 +40,9 @@ html{
 .correct{
   text-align: center;
 }
-
+.wrong{
+  text-align: center;
+}
 
 
 
