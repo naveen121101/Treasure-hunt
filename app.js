@@ -24,7 +24,7 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-mongoose.connect("mongodb+srv://admin-naveen:tKtaFkth1vyKliGy@cluster0.uzizo.mongodb.net/IttiransDB?retryWrites=true&w=majority", {
+mongoose.connect("
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
