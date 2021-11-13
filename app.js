@@ -24,7 +24,7 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-mongoose.connect("mongodb://localhost:27017/IttiransDB", {
+mongoose.connect("mongodb+srv://admin-naveen:tKtaFkth1vyKliGy@cluster0.uzizo.mongodb.net/IttiransDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -618,7 +618,10 @@ app.post("/q13file",function(req,res){
 
 
 
-
-app.listen(8080,function(){
-  console.log("Server up and running on port 8080");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8080;
+}
+app.listen(port,function(){
+  console.log("Server has started successfully!");
 });

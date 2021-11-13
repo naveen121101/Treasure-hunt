@@ -8,6 +8,9 @@
   },
   "author": "Naveen S",
   "license": "ISC",
+  "engines": {
+    "node": "16.13.0"
+  },
   "dependencies": {
     "confetti-js": "^0.0.18",
     "ejs": "^3.1.6",
